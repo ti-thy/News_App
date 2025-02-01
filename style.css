@@ -1,0 +1,127 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* News Container */
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* News Article Box */
+.article {
+    width: 350px;
+    background: white;
+    border-radius: 8px;
+    border: 2px solid #ddd; /* Add a soft border */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    overflow: hidden;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Article Content */
+.article-content {
+    padding: 10px;
+}
+
+/* Headline Styling */
+h4 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+/* Source Highlight */
+.source {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #d9534f; /* Red highlight for source */
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Description */
+p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    border-bottom: 2px solid #ddd; /* Border at the bottom for separation */
+}
+
+/* Read More Button */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.page-link {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.page-link:hover {
+    background: #0056b3;
+}
+
+#page-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
